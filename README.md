@@ -1,5 +1,5 @@
 # GameOfDrones-Tier1
-Reinforcement Learning Agent for Game of Drones challenge (Neurips 2019)
+Reinforcement Learning for Drone Racing Agent - Game of Drones challenge (Neurips 2019)
 
 [A demo of a partially trained experimental run](https://drive.google.com/file/d/1vn4h3XdiQedJbgtqQw70FhF7_zTgfd0K/view)
 
