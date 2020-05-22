@@ -6,6 +6,7 @@ Reinforcement Learning Agent for Game of Drones challenge (Neurips 2019)
 ## Architecture
 Our method employs the Twin Delayed DDPG algorithm for continuous action spaces. The actor architecture is comprises an LSTM followd by an MLP. The two Q function estimators are 3 layered MLPs.
 
+![alt text](https://github.com/amehra-github/GameOfDrones-Tier1/blob/master/Architectures.png)
 
 ## Action Space
 The action space is a 4 dimensional vector comprising of a 3 dimensional unit velocity vector estimate and the velocity magnitude.
