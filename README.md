@@ -27,7 +27,7 @@ Our navigation framework generates a base velocity vector from the trajectory ob
 # Results
 We obtained a lap time of 68 secs on competition Tier 1 which corresponds to a leaderboard rank of 8.
 
-[Best LAp](https://github.com/amehra-github/GameOfDrones-Tier1/blob/master/Best%20Run.jpg)
+![Best Lap](https://github.com/amehra-github/GameOfDrones-Tier1/blob/master/Best%20Run.jpg)
 
 # Code
 [two_racer.py](two_racer.py) - This contains the environment intervace and the trajectory planner and updater.
