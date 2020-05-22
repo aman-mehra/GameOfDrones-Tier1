@@ -18,9 +18,13 @@ The reward system is designed to make the agent finish the course in a minimum a
 We allocate a time penalty to minimize course completion time. In addition to this there is a penalty for collision with other obstacles and a much larger penalty for initiating collision with an adversary (since this disqualifies the aggressor). A bonus reward is awarded at the time of completion as well as when the drone passes a checkpoint gate. Again this is to emphasise course completion.
 To incorporate blocking the path of an adversary, we reward the agent if it successfully manages to make the adversary an aggressor in a collision. To facilitate overtaking the time penalty is scaled using factor depending on the position the agent occupies relative to the adversary. A harsher time penalt is employed when the agent lags behind the adversary.
 
-
 ## Navigation Framework
 Our navigation framework generates a base velocity vector from the trajectory obtained from the current pose estimate and the subsequent waypoint. The TD3 network learns a policy for the velocity and perturbation vector which is used to agment the base velocity vector generated from the trajectory. Actions are generated periodically at an interal of 50 ms. Our approach ensures that the drone realizes the shortest path (straight line) in the absence of adverary or obstacle, while suitably altering direction and speed when necessary to avoid obstacles or ivertake adveraries.
 
 # Results
 We obtained a lap time of 68 secs on competition Tier 1 which corresponds to a leaderboard rank of 8.
+
+# Code
+[two_racer.py](two_racer.py) - This contains the environment intervace and the trajectory planner and updater.
+[lstm-racer.py](lstm-racer.py) - This contains the TD3 implementation.
+
