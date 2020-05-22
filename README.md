@@ -34,3 +34,9 @@ We obtained a lap time of 68 secs on competition Tier 1 which corresponds to a l
 
 [lstm-racer.py](lstm-racer.py) - This contains the TD3 implementation.
 
+# Contributors
+
+[Aman Mehra](https://github.com/amehra-github)
+[Shubham Thakral](https://github.com/shubham2398)
+[Savit Gupta](https://github.com/SavitGupta)
+
