@@ -36,7 +36,7 @@ We obtained a lap time of 68 secs on competition Tier 1 which corresponds to a l
 
 # Contributors
 
-[Aman Mehra](https://github.com/amehra-github)
+[Aman Mehra](https://github.com/aman-mehra)
 
 [Shubham Thakral](https://github.com/shubham2398)
 
